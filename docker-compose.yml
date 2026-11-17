@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    container_name: clients-db
+    environment:
+      POSTGRES_DB: ${DB_NAME:-clients_db}
+      POSTGRES_USER: ${DB_USER:-clients_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-clients_password}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - clients-data:/var/lib/postgresql/data
+volumes:
+  clients-data:

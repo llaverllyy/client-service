@@ -1,0 +1,7 @@
+package com.example.clientservice.repository;
+import com.example.clientservice.entity.Citizenship;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.Optional;
+public interface CitizenshipRepository extends JpaRepository<Citizenship, Long> {
+    Optional<Citizenship> findByNameIgnoreCase(String name);
+}

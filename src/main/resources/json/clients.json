@@ -1,0 +1,18 @@
+[
+  {
+    "lastName": "Сидоров",
+    "firstName": "Павел",
+    "middleName": "Андреевич",
+    "birthDate": "1995-02-11",
+    "passportSeries": "KH",
+    "passportNumber": "1122334",
+    "city": "Гомель",
+    "residenceAddress": "г. Гомель, ул. Советская, д. 15",
+    "mobilePhone": "+375333001122",
+    "email": "pavel@example.com",
+    "employed": true,
+    "position": "Программист",
+    "registrationAddress": "г. Гомель, ул. Советская, д. 15",
+    "citizenship": "Республика Беларусь"
+  }
+]

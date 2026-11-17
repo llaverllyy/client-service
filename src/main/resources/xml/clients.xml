@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+    <client>
+        <lastName>Иванов</lastName>
+        <firstName>Иван</firstName>
+        <middleName>Иванович</middleName>
+        <birthDate>1998-04-15</birthDate>
+        <passportSeries>MP</passportSeries>
+        <passportNumber>1234567</passportNumber>
+        <city>Минск</city>
+        <residenceAddress>г. Минск, ул. Ленина, д. 10, кв. 5</residenceAddress>
+        <mobilePhone>+375291234567</mobilePhone>
+        <email>ivanov@example.com</email>
+        <employed>true</employed>
+        <position>Инженер</position>
+        <registrationAddress>г. Минск, ул. Ленина, д. 10, кв. 5</registrationAddress>
+        <citizenship>Республика Беларусь</citizenship>
+    </client>
+    <client>
+        <lastName>Петрова</lastName>
+        <firstName>Анна</firstName>
+        <middleName>Сергеевна</middleName>
+        <birthDate>2001-09-22</birthDate>
+        <passportSeries>AB</passportSeries>
+        <passportNumber>7654321</passportNumber>
+        <city>Гродно</city>
+        <residenceAddress>г. Гродно, ул. Советская, д. 3</residenceAddress>
+        <registrationAddress>г. Брест, ул. Московская, д. 8</registrationAddress>
+        <citizenship>Республика Беларусь</citizenship>
+    </client>
+</clients>

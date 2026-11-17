@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="clients">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="client" type="ClientType" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ClientType">
+        <xs:sequence>
+            <xs:element name="lastName" type="xs:string"/>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="middleName" type="xs:string"/>
+            <xs:element name="birthDate" type="xs:date"/>
+            <xs:element name="passportSeries" type="xs:string"/>
+            <xs:element name="passportNumber" type="xs:string"/>
+            <xs:element name="city" type="xs:string"/>
+            <xs:element name="residenceAddress" type="xs:string"/>
+            <xs:element name="mobilePhone" type="xs:string" minOccurs="0"/>
+            <xs:element name="email" type="xs:string" minOccurs="0"/>
+            <xs:element name="employed" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="position" type="xs:string" minOccurs="0"/>
+            <xs:element name="registrationAddress" type="xs:string"/>
+            <xs:element name="citizenship" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
