@@ -30,9 +30,9 @@ To stop the database: _docker compose stop_. To delete it together with its data
 **Status:**
 [x] Entities and repositories
 [x] Dictionary tables with initial data
-XSD schema and sample XML
-CRUD service
-Import from XML to the database
-Export from the database to XML
-JSON import/export with Gson
-Tests
+[x] XSD schema and sample XML
+[x] CRUD service
+[x] Import from XML to the database
+[x] Export from the database to XML
+[x] JSON import/export with Gson
+[x] Tests
